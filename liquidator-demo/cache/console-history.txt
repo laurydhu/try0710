@@ -1,0 +1,22 @@
+const erc20 = new ethers.Contract(WETH,["function balanceOf(address)(uint)"],ethers.provider)
+const WETH = "0x4200000000000000000000000000000000000006"
+(await ethers.provider.getBalance(B)).toString()
+const B  = "0xd2628bf5ae2e8f319d248d3465aa3f78b75a3833"
+const erc20 = new ethers.Contract(WETH,["function balanceOf(address)(uint)"],ethers.provider)
+const WETH = "0x4200000000000000000000000000000000000006"
+(await ethers.provider.getBalance(B)).toString() 
+ const B  = "0xd2628bf5ae2e8f319d248d3465aa3f78b75a3833"
+... )
+...   ethers.provider
+...   ["function balanceOf(address)(uint256)"],
+...   WETH,
+const erc20 = new ethers.Contract(
+const WETH = "0x4200000000000000000000000000000000000006"
+(await ethers.provider.getBalance(B)).toString()
+const B  = "0xd2628bf5ae2e8f319d248d3465aa3f78b75a3833"
+> (await erc20.balanceOf(B)).toString() 
+> const erc20 = new ethers.Contract(WETH,["function balanceOf(address)(uint)"],ethers.provider)
+> const WETH = "0x4200000000000000000000000000000000000006"
+> (await ethers.provider.getBalance(B)).toString()        // ETH 余额（wei）
+> const B  = "0xd2628bf5ae2e8f319d248d3465aa3f78b75a3833"
+const B = "0xd2628bf5ae2e8f319d248d3465aa3f78b75a3833"

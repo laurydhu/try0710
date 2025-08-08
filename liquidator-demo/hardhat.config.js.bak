@@ -1,0 +1,14 @@
+require('@nomiclabs/hardhat-ethers');
+require('dotenv').config(); // 加载 .env 文件
+
+module.exports = {
+  solidity: "0.8.0",
+  networks: {
+    sepolia: {
+      url: `https://sepolia.infura.io/v3/31146641aa6d49318bda5865591bc7c6`,
+      accounts: [0xbcbad77f056005b0b826f170f918694feb7e2099e53d65e8a40ea9b9abb143d4]
+    },
+    // 其他网络配置可以在这里添加
+  }
+};
+
